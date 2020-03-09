@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+// saat pertama kali menjalankan codeigniter, controller yang pertama kali dijalankan
+// adalah controller welcome. karena ini merupakan controller default.
 $route['default_controller'] = 'welcome';
 $route['admin'] = 'admin/overview';
 $route['404_override'] = '';

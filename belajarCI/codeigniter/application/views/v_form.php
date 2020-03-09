@@ -1,3 +1,5 @@
+<!-- file in berisi form validation -->
+<!-- berfungsi untuk menginput data -->
 <!DOCTYPE html>
 <html>
 <head>

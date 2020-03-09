@@ -58,6 +58,8 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+
+// mengaktifkan library database
 $autoload['libraries'] = array('database');
 
 /*
@@ -89,6 +91,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
+// aktifkan helper
 $autoload['helper'] = array('url','html','download');
 
 /*
